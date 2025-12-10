@@ -1,9 +1,7 @@
-README
-
 Name: Gerald Macabansag
 Section: [BSIT-3A]
 
-Project Title: Smart Interactive Dashboard
+Project Title: Smart Interactive Dashboard (A Note Taking Dashboard0
 Language Used: Python (PyQt5)
 
 What is PyQt5?
