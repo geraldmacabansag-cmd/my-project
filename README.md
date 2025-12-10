@@ -33,9 +33,10 @@ A digital clock at the top shows the current time and date. It updates every sec
 The Reset button returns the dashboard to its default state. It clears the search bar, scrolls the table back to the top, and also clears the notification area. This gives the user a clean and fresh view of the dashboard. It is helpful when the user wants to remove old logs and reset the view quickly.
 
 
-![Alt Text](screenshot1.png)   ![Alt Text](screenshot4.png)
-
-
+![Alt Text](screenshot1.png)   
+![Alt Text](screenshot4.png)
+![Alt Text](screenshot5.png)
+![Alt Text](screenshot6.png)
 
 
 
