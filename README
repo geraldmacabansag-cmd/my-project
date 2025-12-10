@@ -1,0 +1,35 @@
+README
+
+Name: Dlareg Gasnabacam
+Section: [Your Section]
+
+Project Title: Smart Interactive Dashboard (Note Taking Dashboard)
+Language Used: Python (PyQt5)
+
+What is PyQt5?
+PyQt5 is a Python library that helps you create desktop applications with windows, buttons, text boxes, tables, and other visual elements. It uses signals and slots so your program can react when a user clicks a button or types something. It is simple to use and works on different operating systems.
+
+Features of the Dashboard (Simple English)
+1. Debounced Search Bar
+The search bar waits for 500ms after the user stops typing before it runs the search. This helps avoid running the search too many times while typing. It updates a label to show what the user typed and filters the table rows. This makes the search smoother and faster.
+
+2. Throttled Scroll Event
+When the user scrolls the table, the scroll position is shown as a percentage. The table header also changes color while scrolling. After 500ms of no scrolling, the header returns to normal. This makes the UI more responsive and avoids too many scroll events.
+
+3. Buttons and Basic UI Events
+Buttons like Add Notes, Open, Delete, Change Theme, Reset Dashboard, and Exit each do a specific task. When clicked, they run their connected functions. This shows how button events work and how the app responds to user actions. It also includes error messages when needed.
+
+4. Data-Driven Panel
+The task table loads all data from the database. When you add, edit, or delete a task, the table updates immediately. This keeps the dashboard data correct and always updated. It shows how UI and database work together.
+
+5. Custom Events + Notification Area
+The dashboard uses custom signals like taskAdded, taskUpdated, taskDeleted, and themeChanged. Each time something happens, a message appears in the notification area. This lets users see all actions and changes clearly.
+
+6. Error Handling
+The program checks for errors, like trying to open or delete a note without selecting one. If something is wrong, a warning message appears. This prevents the app from crashing and helps guide the user.
+
+7. Timer / Clock Feature
+A digital clock updates every second using a timer. It shows the current time and date at the top of the dashboard. This feature shows how the app can use system time and update automatically.
+
+8. Reset Dashboard Button
+The Reset button returns the dashboard to its default state. It clears the search bar, scrolls the table back to the top, and also clears the notification area. This gives the user a clean and fresh view of the dashboard. It is helpful when the user wants to remove old logs and reset the view quickly.
